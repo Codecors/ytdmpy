@@ -1,1 +1,1 @@
-web: python ipython_config.py
+heroku ps:scale worker=1
