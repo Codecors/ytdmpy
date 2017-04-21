@@ -1,2 +1,1 @@
-heroku ps:scale worker=1
-heroku logs --ps worker
+web: gunicorn {{ project_name }}.wsgi
